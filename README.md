@@ -8,12 +8,78 @@ The Minnesota precinct shapefiles with election results were created by the [Min
 The topology of the precinct shapefiles were repaired using the st_make_valid() function from the R package [lwgeom](https://github.com/r-spatial/lwgeom).  Demographic data was aggregated from the block level using [MGGG’s proration software](https://github.com/mggg/maup).
 
 ## Metadata
+MN_08 and MN_10:
+* `DISTRICT`: Precinct number 
+* `PRECINCT`: Precinct name
+* `MCD`: City or Township 
+* `COUNTY`: County name
+* `LEG`: State legislative district
+* `SEN`: State senate district
+* `CNG`: US congressional district
+* `TOTVOTER`: Number of voters casting ballots
+* `EQUIPMENTM`: Vote tabulation equipment used for precinc
+* `USPRESR`: US president Republican Party candidate votes
+* `USPRESDFL`: US president Democratic-Farmer-Labor Party candidate votes
+* `USPRESIP`: US president Independent Party candidate votes
+* `USPRESWI`: US president write in candidate votes--includes registered and non-registered write-ins
+* `USPRESLIB`: US president Libertarian Party candidate votes
+* `USPRESCP`: US president Constitution Party candidate votes
+* `USPRESTOT`: US president total votes
+* `USSENR`: US senator Republican Party candidate vote
+* `USSENDFL`: US senator Democratic-Farmer-Labor Party candidate votes
+* `USSENDIP`: US senator Independent Party candidate vote
+* `USSENLIB`: US senator Libertarian Party candidate vote
+* `USSENCP`: US senator Constitution Party candidate vote
+* `USSENWI`: US senator write in candidate votes--includes registered and non-registered write-ins
+* `USSENTOTAL`: US senator total votes
+* `CONGR`: US representative Republican Party candidate votes
+* `CONGDFL`: US representative Democratic-Farmer-Labor Party candidate votes
+* `CONGIP`: US representative Independence Party candidate votes
+* `CONGWI`: US representative write in candidate votes--includes registered and non-registered write-ins
+* `CONGTOT`: US representative total votes
+* `MNSENR`: MN senator Republican Party candidate votes
+* `MNSENDFL`: MN senator Democratic-Farmer-Labor Party candidate votes
+* `MNSENIP`: MN senator Independence Party candidate votes
+* `MNSENWI`: MN senator write in candidate votes--includes registered and non-registered write-ins
+* `MNSENTOTAL`: MN senator total votes
+* `MNLEGR`: MN representative Republican Party candidate votes
+* `MNLEGDFL`: MN representative Democratic-Farmer-Labor Party candidate votes
+* `MNLEGIP`: MN representative Independence Party candidate votes
+* `MNLEGWI`: MN Representative write in candidate votes--includes registered and non-registered write-ins
+* `MNLEGTOT`: MN representative total votes
+* `TOTPOP`: Total population 
+* `NH_WHITE`: White, non-hispanic, population
+* `NH_BLACK`: Black, non-hispanic, population
+* `NH_AMIN`: American Indian and Alaska Native, non-hispanic, population
+* `NH_ASIAN`: Asian, non-hispanic, population
+* `NH_NHPI`: Native Hawaiian and Pacific Islander, non-hispanic, population
+* `NH_OTHER`: Other race, non-hispanic, population
+* `NH_2MORE`: Two or more races, non-hispanic, population
+* `HISP`: Hispanic population
+* `H_WHITE`: White, hispanic, population
+* `H_BLACK`: Black, hispanic, population
+* `H_AMIN`: American Indian and Alaska Native, hispanic, population
+* `H_ASIAN`: Asian, hispanic, population
+* `H_NHPI`: Native Hawaiian and Pacific Islander, hispanic, population
+* `H_OTHER`: Other race, hispanic, population
+* `H_2MORE`: Two or more races, hispanic, population
+* `VAP`: Total voting age population
+* `HVAP`: Hispanic voting age population
+* `WVAP`: White, non-hispanic, voting age population
+* `BVAP`: Black, non-hispanic, voting age population
+* `AMINVAP`: American Indian and Alaska Native, non-hispanic, voting age population
+* `ASIANVAP`: Asian, non-hispanic, voting age population
+* `NHPIVAP`: Native Hawaiian and Pacific Islander, non-hispanic, voting age population
+* `OTHERVAP`: Other race, non-hispanic, voting age population
+* `2MOREVAP`: Two or more races, non-hispanic, voting age population
+
 MN_2012 to MN_2016:
 * `PCTNAME`: Precinct name
 * `PCTCODE`: Precinct number (unique within county)
 * `SHORTLABEL`: Abbreviated precinct name
 * `COUNTYNAME`: County name
 * `COUNTYCODE`: County number
+* `MCDNAME`: City or Township 
 * `CONGDIST`: US congressional district
 * `MNSENDIST`: State senate district
 * `MNLEGDIST`: State legislative district
@@ -65,8 +131,8 @@ MN_2012 to MN_2016:
 * `MNLEGIP`: MN representative Independence Party candidate votes
 * `MNLEGR`: MN representative Republican Party candidate votes
 * `MNLEGDFL`: MN representative Democratic-Farmer-Labor Party candidate votes
-* `MNLEGWI`: 	MN representative Write In candidate votes--includes registered and non-registered write-ins
-* `MNLEGTOTAL`: MN representative total votes
+* `MNLEGWI`: MN Representative write in candidate votes--includes registered and non-registered write-ins
+* `MNLEGTOT`: MN representative total votes
 * `MNCA1YES`: Constitutional Amendment 1 (Marriage) Yes votes
 * `MNCA1NO`: Constitutional Amendment 1 (Marriage) No votes
 * `MNCA1EST`: Constitutional Amendment 1 (Marriage) Estimated Blanks
