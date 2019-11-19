@@ -5,7 +5,7 @@ These shapefiles were obtained from the Minnesota Legislative Coordinating Commi
 The Minnesota precinct shapefiles with election results were created by the [Minnesota Secretary of State Election Division](https://www.sos.state.mn.us/elections-voting/) and obtained from the [Minnesota LCC-GIS](https://www.gis.leg.mn/html/download.html). 2010 Decennial Census demographic data were downloaded from the [Census API](https://api.census.gov/data/2010/dec/sf1). The 2010 census block shapefile for Minnesota was downloaded from the US Census Bureau’s [TIGER/Line Shapefiles](https://www.census.gov/geographies/mapping-files/time-series/geo/tiger-line-file.html).
 
 ## Processing
-The topology of the precinct shapefiles were repaired using the st_make_valid() function from the R package [lwgeom](https://github.com/r-spatial/lwgeom).  Demographic data was aggregated from the block level using [MGGG’s proration software](https://github.com/mggg/maup).
+The topology of the precinct shapefiles were repaired using the st_make_valid() function from the R package [lwgeom](https://github.com/r-spatial/lwgeom).  Demographic data were aggregated from the block level using [MGGG’s proration software](https://github.com/mggg/maup).
 
 ## Metadata
 MN_08 and MN_10:
