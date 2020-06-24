@@ -1,5 +1,5 @@
 # Minnesota Election Shapefile
-**NOTE: These shapefiles have been replaced by the ones available in the main section of this repo. Those files have been more thoroughly vetted by the Secretary of State's office for incorrect boundaries, topology errors, and handling of absentee/mail-in ballots.**
+**NOTE: These shapefiles have been replaced by the ones available in the main section of this repo. We highly recommend that you use those files as they have been more thoroughly vetted by the Secretary of State's office for incorrect boundaries, topology errors, and handling of absentee/mail-in ballots.**
 
 These shapefiles were obtained from the Minnesota Legislative Coordinating Commission GIS (LCC-GIS) Data Center and processed by members of the Metric Geometry and Gerrymandering Group (MGGG).
 
