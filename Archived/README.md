@@ -1,4 +1,6 @@
 # Minnesota Election Shapefile
+**NOTE: These shapefiles have been replaced by the ones available in the main section of this repo. Those files have been more thoroughly vetted by the Secretary of State's office for incorrect boundaries, topology errors, and handling of absentee/mail-in ballots.**
+
 These shapefiles were obtained from the Minnesota Legislative Coordinating Commission GIS (LCC-GIS) Data Center and processed by members of the Metric Geometry and Gerrymandering Group (MGGG).
 
 ## Sources
@@ -171,5 +173,3 @@ MN_2012 to MN_2016:
 ## Projection
 These shapefiles use a NAD83/UTM zone 15N projection (EPSG: 26915).
 
-## Rating
-We give these shapefiles an A rating. All data was obtained from the state government and was processed by MGGG staff.
